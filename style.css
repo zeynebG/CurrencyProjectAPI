@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto;
+}
+img {
+  height: 23px;
+  width: 89px;
+  left: 100px;
+  border-radius: 0px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  background-color: rgba(245, 245, 246, 1);
+  height: 50px;
+}
+.list {
+  list-style-type: none;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  color: rgba(149, 155, 164, 1);
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+.primary a {
+  color: rgba(149, 155, 164, 1);
+  text-decoration: none;
+}
+.primary a:hover {
+  color: black;
+}
+.bankLink.active{
+  color: black;
+}
+.exit {
+  margin-right: 100px;
+  margin-top: 9px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  display: inline-block;
+  background-color: white;
+  border-color: black;
+  height: 33px;
+  width: 58px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.text1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 106px;
+  margin-left: 553px;
+}
+.h1,
+.h2 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(159, 159, 159, 1);
+  margin-left: 553px;
+  display: inline-block;
+  margin-top: 33px;
+  margin-bottom: 7px;
+}
+.h2 {
+  margin-left: 123px;
+}
+.leftButtons,
+.rightButtons {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(198, 198, 198, 1);
+  background-color: white;
+  border-style: none;
+  height: 30px;
+  width: 65.06280517578125px;
+  left: 253px;
+  top: 200px;
+  border-radius: [object Object]px;
+}
+.tableH1,
+.tableH2 {
+  height: 30px;
+  width: 259px;
+  left: 253px;
+  top: 200px;
+  display: flex;
+  list-style-type: none;
+  border: 1px solid rgba(229, 229, 229, 1);
+  border-radius: 3px;
+  margin-left: 553px;
+  margin-bottom: 15px;
+}
+.tableH2 {
+  margin-left: 123px;
+}
+.input1[type="text"],
+.input2[type="text"] {
+  height: 112px;
+  width: 263px;
+  left: 253px;
+  top: 250px;
+  border-radius: 3px;
+  border: 1px solid rgba(229, 229, 229, 1);
+  margin-left: 553px;
+  box-sizing: border-box;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.input2[type="text"] {
+  margin-left: 123px;
+}
+.operationArea {
+  display: flex;
+}
+.leftButtons.active {
+  background-color: rgba(131, 58, 224, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.rightButtons.active {
+  background-color: rgba(131, 58, 224, 1);
+  color: rgba(255, 255, 255, 1);
+}
+p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(198, 198, 198, 1);
+  margin-left: 553px;
+  outline: none;
+  border: none;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+}
+.right p {
+  margin-left: 133px;
+}
